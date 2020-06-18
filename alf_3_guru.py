@@ -12,5 +12,9 @@ def alf3():
     
     for i in range(0,len(asignatura)):
         print(f"En {asignatura[i]} has sacado {(nota[i])}")
+    
+    continuar = input("Si desea continuar escriba cualquier wea:")
+    if(continuar!=""):
+        alf3()
 
 alf3()
