@@ -1,6 +1,7 @@
-def imprimir(a):
-    print(f"La variable que enviaste es: {a}.")
-
-poto=["hola","chao","pepe", "guru", "sopa"]
-for i in range(0,len(poto)):
-    imprimir(poto[i])
+subjects = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+scores = []
+for subject in subjects:
+    score = input("¿Qué nota has sacado en " + subject + "?")
+    scores.append(score)
+for i in range(len(subjects)):
+    print("En " + subjects[i] + " has sacado " + scores[i])

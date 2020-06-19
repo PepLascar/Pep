@@ -4,7 +4,7 @@
 # introducidas por el usuario.
 import numpy
 
-def alf3():
+def reset():
     asignatura = ["Matematicas", "Lenguaje", "Fisica"]
     nota = numpy.empty(len(asignatura), dtype='float')
     for i in range(0,len(asignatura)):
@@ -15,6 +15,6 @@ def alf3():
     
     continuar = input("Si desea continuar escriba cualquier wea:")
     if(continuar!=""):
-        alf3()
+        reset()
 
-alf3()
+reset()
