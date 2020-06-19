@@ -9,7 +9,9 @@ num_loteria = lista.empty(6, dtype='int')
 for i in range(6):
     num_loteria[i] = int(input("Número: "))
 
+num_loteria.sort()
 print(f"Los números de su boleto son:\n{num_loteria}\nGracias ")
+
 
 #¿cómo ordenarlos de mayor a menor?, me imaginaría que aplicandole a la lista con un comando "sort" o algo así, 
 #que de momento no cacho como implementarlo
