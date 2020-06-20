@@ -15,3 +15,5 @@ print(f"Los números de su boleto son:\n{num_loteria}\nGracias ")
 
 #¿cómo ordenarlos de mayor a menor?, me imaginaría que aplicandole a la lista con un comando "sort" o algo así, 
 #que de momento no cacho como implementarlo
+
+print(f"Los números de su boleto son:\n{num_loteria[::-1]}\nGracias ")
