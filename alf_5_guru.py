@@ -9,7 +9,8 @@ def ejercicio5():
     #Imprimo la lista pero los primeros 9 indices incluyen una "," al final
     for i in range(0,10):
         if(i<9):
-            print(lista[i], end=",")
+            #El argumento end se puede dejar vacio end='' para evitar saltos de linea
+            print(lista[i], end=', ')
         else:
             print(lista[i])
     #Condicion para volver a ejecutar la funcion
