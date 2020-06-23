@@ -18,13 +18,16 @@ while( loop == "S"):
     if(limite > 10 and opcion =="1"):
         print("Alcanzó limite máximo de nombres.")
 
-    if(opcion=="2"):
-        indice = int(input("Ingrese índice que desea ver: "))
-        print(personas[indice])
-    if(indice > 10):
-        IndexError
-            print("Ingrese valor dentro del rango")
+    try:
+        if(opcion=="2"):
+            indice = int(input("Ingrese índice que desea ver: "))
+            print(personas[indice])
 
+    except:
+        if(indice > 10):
+            print("Ingrese un índice menor a 10")
+            loop = input("¿Desea continuar? S/N").upper()
+            
 
         
             
