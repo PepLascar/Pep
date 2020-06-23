@@ -2,7 +2,7 @@ def reset():
     import os
     os.system ("cls")
     import numpy
-    personas = numpy.empty(10, dtype='str')
+    personas = numpy.empty(10, dtype='ob')
     limite = 0
     indice = 0
     continuar = "S"
@@ -31,7 +31,6 @@ def reset():
                     reset()
                 else:
                     print("Fin del programa")
-
 reset()    
 
         
