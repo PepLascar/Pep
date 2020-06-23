@@ -1,6 +1,7 @@
 import numpy
 personas = numpy.empty(10, dtype='str')
 limite = 0
+indice = 0
 
 loop = "S"
 while( loop == "S"):
@@ -12,15 +13,21 @@ while( loop == "S"):
         nombre = input(str("Ingrese nombre: "))
         personas[limite] = nombre
         limite = limite + 1
+        
 
-    if(limite == 10 and opcion =="1"):
+    if(limite > 10 and opcion =="1"):
         print("Alcanzó limite máximo de nombres.")
 
     if(opcion=="2"):
         indice = int(input("Ingrese índice que desea ver: "))
         print(personas[indice])
-        #agregar rango al indice para ingresar un rango válido
+    if(indice > 10):
+        IndexError
+            print("Ingrese valor dentro del rango")
+
+
         
+            
 
         
         

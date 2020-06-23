@@ -1,6 +1,3 @@
-# Se requiere crear un vector de tamaño 10, completar los valores del vector
-# aleatoriamente con números enteros del 0 al 10, para ello deberá investigar
-# la función que permita crear números aleatorios.
 import os
 import random
 import numpy 
@@ -25,6 +22,3 @@ print(f"El elemento mayor es: {mayor}\nSu posición en la lista es: {indice_mayo
 menor = min(arreglo)
 indice_menor = arreglo.index(menor)
 print(f"El elemento menor es: {menor}\nSu posición en la lista es: {indice_menor}") 
-
-#menor = min(arreglo)
-#print(f"El elemento menor es: {menor}\nSu posición en la lista es: {i}")  
