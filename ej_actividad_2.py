@@ -2,7 +2,11 @@ def reset():
     import os
     os.system ("cls")
     import numpy
+<<<<<<< HEAD
     personas = numpy.empty(10, dtype='ob')
+=======
+    personas = numpy.empty(10, dtype='object')
+>>>>>>> f42af8f041e9ffdfe803cd653362cb7b6852b963
     limite = 0
     indice = 0
     continuar = "S"
@@ -11,7 +15,7 @@ def reset():
         print("\nMenu:\n------------------------------------")
         opcion = input("1) Presione 1 para agregar persona.\n2) Presione 2 para ver persona.\n")
         if(opcion=="1" and limite<10):
-            nombre = input(str("Ingrese nombre: "))
+            nombre = input("Ingrese nombre: ")
             personas[limite] = nombre
             limite = limite + 1
 
