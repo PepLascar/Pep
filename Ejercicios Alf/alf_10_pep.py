@@ -4,6 +4,6 @@ import os
 os.system('cls')
 
 precios =[50, 75, 46, 22, 80, 65, 8]
-mayor = max(precios)
+mayor = max(precios)                                #DE LA FORMA QUE DESARROLLÉ EL EJERCICIO
 menor = min(precios)
 print(f"El mayor de los precios es: {mayor}\nEl menor de los precios es: {menor}")

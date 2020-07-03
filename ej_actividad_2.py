@@ -19,7 +19,7 @@ def reset():
             print("Alcanzó limite máximo de nombres.")
 
         if(opcion=="3"):
-            print(personas  )
+            print(personas)
 
         try:
             if(opcion=="2"):

@@ -1,2 +1,0 @@
-# Pep
-Ejercicios Pep Python
