@@ -8,11 +8,11 @@ cont_par = 0
 cont_imp = 0
 
 for i in range(100):
-    numero_rand = int(random.randint(1,1000))  #crear una lista con números aleatorios
+    numero_rand = int(random.randint(1,1000))  
     vector.append(numero_rand)
 print(f"Listado de números al azar: \n{vector}")
 
-for i in range(len(vector)):  #recorrer el largo del arreglo
+for i in range(len(vector)):  
     if(vector[i] %2==0):
         cont_par = cont_par + 1
     else:

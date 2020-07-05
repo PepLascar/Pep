@@ -1,19 +1,16 @@
-def reset():
-    import os
-    
-    import numpy
-    personas = numpy.empty(10, dtype='object')
-    limite = 0
-    indice = 0
-    continuar = "S"
 
-    while(continuar == "S"):
+
+
+
+
+while(continuar == "S"):
         print("\nMenu:\n------------------------------------")
-        opcion = input("1) Presione 1 para agregar persona.\n2) Presione 2 para ver persona.\n3) Presione 3 para ver lista de personas.\n")
-        if(opcion=="1" and limite<10):
-            nombre = input("Ingrese nombre: ")
-            personas[limite] = nombre
-            limite = limite + 1
+        opcion = input("1) Registrar empleados.\n2) TOTAL Y PROMEDIO.\n3) LISTAR TODO.\n")
+        if(opcion=="1"):
+                for i in range(0,5):
+                    empleados_retail = int(input(f"Ingrese número empleados de {departamenos[i]} "))
+
+           
 
         if(limite > 10 and opcion =="1"):
             print("Alcanzó limite máximo de nombres.")
