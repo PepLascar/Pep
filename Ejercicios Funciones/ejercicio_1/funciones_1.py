@@ -3,17 +3,28 @@ def calcularIva(precio):
     iva = int(precio * 0.19)
     return iva
 
-# descuento: La función descuento requiere el precio del producto y el descuento a aplicar, me indica el valor del 
-# producto con el descuento aplicado.
-
-def descuento(dscto):
+def descuento(precio, descuento):
     dscto = int(precio * (descuento/100))
     return dscto
 
-def calcularImc():
-    imc = masa/estatura
-    #input de estatura
-    #input de masa corporal
+def calcularImc(masa, estatura):
+    imc = (masa/(estatura*2))*100
+    return imc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
